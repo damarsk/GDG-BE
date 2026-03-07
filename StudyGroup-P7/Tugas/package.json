@@ -1,0 +1,30 @@
+{
+  "name": "studygroup7_be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.22.0",
+    "dotenv": "^17.3.1",
+    "express": "^4.21.0",
+    "prisma": "^5.22.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.19.13",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  }
+}
